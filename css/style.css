@@ -1,0 +1,40 @@
+/* REGOLE GENERALI */
+  
+/* /REGOLE GENERALI */
+/* HEADER */
+  /* NAVBAR */
+    .ms-nav{
+      height: 70px;
+      background: #F8F9FA;
+    }
+
+    .ms-nav img{
+      max-height: 54px;
+    }
+
+    .ms-search,
+    .ms-nav-btn{
+      margin: 0 !important;
+      color: #5B5858;
+    }
+
+    .ms-search{
+      width: 100%;
+      background-color: #E5E5E5;
+      border-radius: 5px;
+    }
+
+    .ms-search .form-control{
+      border: none;
+      background: transparent;
+    }
+
+    .ms-search .form-control:focus{
+      box-shadow: none;
+    }
+
+    .ms-nav-btn .fa-bell{
+      color: #FF8F00;
+    }
+  /* /NAVBAR */
+/* /HEADER */
