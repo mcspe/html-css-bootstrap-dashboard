@@ -77,9 +77,9 @@
     width: 100%;
   }
 
-  @media screen and (min-width:992px) {
+  @media screen and (min-width:768px) {
     .ms-wrapper-head .ms-offcanvas{
-      width: 45%;
+      width: 768px;
     }
   }
 /* /MAIN */

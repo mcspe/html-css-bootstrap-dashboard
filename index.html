@@ -143,7 +143,7 @@
 
           <div class="col-12 col-md-4 col-xl-3 order-md-last">
 
-            <span class="fs-5 me-3">Nuovo studente</span>
+            <span class="fs-6 me-3">Nuovo studente</span>
 
             <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
@@ -151,14 +151,199 @@
 
               <div class="offcanvas-header">
 
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
 
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 
               </div>
 
               <div class="offcanvas-body">
-                ...
+
+                <form class="container-fluid">
+
+                  <div class="row">
+
+                    <div class="col-12 col-sm-6">
+
+                      <div class="mb-2">
+
+                        <label for="name" class="form-label">Nome</label>
+
+                        <input type="text" class="form-control" id="name">
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+
+                      <div class="mb-2">
+
+                        <label for="surname" class="form-label">Cognome</label>
+
+                        <input type="text" class="form-control" id="surname">
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+
+                      <div class="mb-2">
+
+                        <label for="email" class="form-label">Email address</label>
+
+                        <div class="input-group">
+
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                          <input type="email" class="form-control" id="email">
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+
+                      <div class="mb-2">
+
+                        <label for="password" class="form-label">Password</label>
+
+                        <input type="password" class="form-control" id="password">
+
+                      </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+
+                      <div class="mb-2">
+
+                        <label for="email-confirm" class="form-label">Confirm email address</label>
+
+                        <div class="input-group">
+
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                          <input type="email" class="form-control" id="email-confirm">
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+
+                      <div class="mb-2">
+
+                        <label for="password-confirm" class="form-label">Confirm password</label>
+
+                        <input type="password" class="form-control" id="password-confirm">
+
+                      </div>
+
+                    </div>
+
+                    <div class="col-12">
+
+                      <div class="mb-2">
+
+                        <label for="address" class="form-label">Indirizzo</label>
+
+                        <input type="text" class="form-control" id="address">
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+
+                      <div class="mb-2">
+
+                        <label for="city" class="form-label">Città</label>
+
+                        <input type="text" class="form-control" id="city">
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-8 col-sm-4">
+
+                      <div class="mb-2">
+
+                        <label for="state" class="form-label">Stato</label>
+
+                        <select class="form-select" id="state">
+                          <option selected>Scegli...</option>
+                          <option value="1">Italia</option>
+                          <option value="2">Spagna</option>
+                          <option value="3">Francia</option>
+                        </select>
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-4 col-sm-2">
+
+                      <div class="mb-2">
+
+                        <label for="cap" class="form-label">Cap</label>
+
+                        <input type="text" class="form-control" id="cap">
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-12">
+
+                      <div class="mb-3">
+
+                        <label for="picture" class="form-label">Foto</label>
+
+                        <input type="file" class="form-control" id="picture">
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-12">
+
+                      <div class="mb-3">
+
+                        <div class="form-check">
+                          
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Seleziona per proseguire
+                          </label>
+
+                        </div>
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-12">
+
+                      <div class="mb-2">
+
+                        <button type="submit" class="btn btn-primary">Salva</button>
+
+                        <button type="reset" class="btn btn-warning">Svuota</button>
+                        
+                      </div>
+
+                    </div>
+                    
+                  </div>
+
+                </form>
+
               </div>
 
             </div>
