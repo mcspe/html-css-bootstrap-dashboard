@@ -82,4 +82,9 @@
       width: 768px;
     }
   }
+
+  .ms-title .badge{
+    cursor: pointer;
+    background: #165BBA;
+  }
 /* /MAIN */
