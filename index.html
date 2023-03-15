@@ -137,12 +137,40 @@
 
     <div class="ms-wrapper">
 
-      <div class="ms-wrapper-head container-fluid">
+      <div class="ms-wrapper-head container-fluid py-4">
+
         <div class="row">
-          <div class="col-12 col-md-4 col-lg-3 order-md-last bg-black debug"></div>
-          <div class="col-12 col-md-4 col-lg-6 debug"></div>
-          <div class="col-12 col-md-4 col-lg-3 debug"></div>
+
+          <div class="col-12 col-md-4 col-xl-3 order-md-last">
+
+            <span class="fs-5 me-3">Nuovo studente</span>
+
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+            <div class="ms-offcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+              <div class="offcanvas-header">
+
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+              </div>
+
+              <div class="offcanvas-body">
+                ...
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-12 col-md-4 col-xl-6"></div>
+
+          <div class="col-12 col-md-4 col-xl-3"></div>
+          
         </div>
+
       </div>
 
     </div>

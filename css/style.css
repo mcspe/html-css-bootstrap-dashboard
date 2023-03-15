@@ -67,4 +67,19 @@
     height: calc(100vh - 70px);
     overflow: auto;
   }
+
+  .ms-wrapper-head{
+    background: #1B72E8;
+    color: white;
+  }
+
+  .ms-wrapper-head .ms-offcanvas{
+    width: 100%;
+  }
+
+  @media screen and (min-width:992px) {
+    .ms-wrapper-head .ms-offcanvas{
+      width: 45%;
+    }
+  }
 /* /MAIN */
