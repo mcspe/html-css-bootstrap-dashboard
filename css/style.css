@@ -83,8 +83,16 @@
     }
   }
 
-  .ms-title .badge{
+  .ms-wrapper-head .ms-title .badge{
     cursor: pointer;
     background: #165BBA;
+  }
+
+  .ms-wrapper-body{
+    background: #F8F9FA;
+  }
+
+  .ms-wrapper-body .ms-class-avatar{
+    max-width: 2rem;
   }
 /* /MAIN */
