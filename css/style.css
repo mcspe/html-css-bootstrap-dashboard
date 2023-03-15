@@ -1,5 +1,9 @@
 /* REGOLE GENERALI */
-  
+  .debug{
+    min-height: 50px;
+    background: rgba(255, 0, 0, .2);
+    border: 1px solid black;
+  }
 /* /REGOLE GENERALI */
 /* HEADER */
   /* NAVBAR */
@@ -40,20 +44,27 @@
 /* /HEADER */
 
 /* ASIDE */
-.ms-side-nav{
-  height: calc(100vh - 70px);
-  background: #051E34 url(../img/sidebar-bg.png);
-  color: white;
-}
+  .ms-side-nav{
+    height: calc(100vh - 70px);
+    background: #051E34 url(../img/sidebar-bg.png);
+    color: white;
+  }
 
-.ms-side-nav .btn{
-  border: none;
-  border-radius: 0;
-}
+  .ms-side-nav .btn{
+    border: none;
+    border-radius: 0;
+  }
 
-.ms-side-nav .ms-icon{
-  display: inline-block;
-  text-align: left;
-  width: 20px;
-}
+  .ms-side-nav .ms-icon{
+    display: inline-block;
+    text-align: left;
+    width: 20px;
+  }
 /* /ASIDE */
+
+/* MAIN */
+  .ms-wrapper{
+    height: calc(100vh - 70px);
+    overflow: auto;
+  }
+/* /MAIN */
